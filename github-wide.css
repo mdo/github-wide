@@ -45,6 +45,12 @@ body > .container, /* Footer */
   margin-right: 240px !important;
 }
 
+/* Comments */
+
+.comment-holder {
+  max-width: none !important;
+}
+
 /* New issues and Dashboard */
 
 #dashboard,
