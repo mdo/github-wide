@@ -83,6 +83,10 @@ button.discussion-sidebar-toggle {
 .repo-settings-content {
   float: none !important;
   width: auto !important;
+}
+
+.container > .settings-content,
+.repo-settings-content {
   margin-left: 260px !important;
 }
 
