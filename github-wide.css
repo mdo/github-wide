@@ -79,8 +79,17 @@ button.discussion-sidebar-toggle {
 /* Settings */
 /* This should be refactored to use our grid.scss styles anyway, thus negating these styles. */
 
-.settings-content {
+.settings-content,
+.repo-settings-content {
   float: none !important;
   width: auto !important;
   margin-left: 260px !important;
+}
+
+.repo-settings-content .settings-content {
+  margin-left: 0 !important;
+}
+
+#repo-settings .menu-container {
+  width: 240px !important;
 }
