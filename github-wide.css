@@ -1,0 +1,86 @@
+/*
+ * Wide GitHub userstyle
+ *
+ * Copyright 2014 Mark Otto
+ */
+
+body > .container, /* Footer */
+.site > .container, /* Misc views */
+.header > .container, /* Site header */
+.pagehead > .container, /* All pageheads */
+#site-container > .container /* Misc views */ {
+  width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+/* Repo Next layout */
+
+.repository-content {
+  width: 100% !important;
+}
+
+.repository-with-sidebar {
+  padding-right: 60px !important;
+}
+
+.repository-with-sidebar .repository-sidebar {
+  margin-right: -60px !important;
+}
+
+/* Repo Next Code page */
+
+.with-full-navigation {
+  padding-right: 190px !important;
+}
+
+.with-full-navigation .repository-sidebar {
+  margin-right: -190px !important;
+}
+
+/* Issues/PRs */
+
+.discussion-sidebar {
+  width: 220px !important;
+}
+
+.discussion-timeline {
+  overflow: auto !important;
+  float: none !important;
+  width: auto !important;
+  margin-right: 240px !important;
+}
+
+button.discussion-sidebar-toggle {
+  width: 100% !important;
+}
+
+.timeline-new-comment {
+  max-width: none !important;
+}
+
+/* Dashboard */
+/* Note that this won't be needed if we actually flipped the DOM order around. */
+
+#dashboard { position: relative !important; }
+
+.news {
+  float: none !important;
+  width: auto !important;
+  margin-right: 360px !important;
+}
+
+.dashboard-sidebar {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+/* Settings */
+/* This should be refactored to use our grid.scss styles anyway, thus negating these styles. */
+
+.settings-content {
+  float: none !important;
+  width: auto !important;
+  margin-left: 260px !important;
+}
