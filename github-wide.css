@@ -1,9 +1,3 @@
-/*
- * Wide GitHub userstyle
- *
- * Copyright 2014 Mark Otto
- */
-
 body > .container, /* Footer */
 .site > .container, /* Misc views */
 .header > .container, /* Site header */
@@ -51,6 +45,20 @@ body > .container, /* Footer */
   margin-right: 240px !important;
 }
 
+/* New issues and Dashboard */
+
+#dashboard,
+.new-issue-form {
+  position: relative !important;
+}
+
+.dashboard-sidebar,
+.new-issue-form .discussion-sidebar {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
 button.discussion-sidebar-toggle {
   width: 100% !important;
 }
@@ -62,18 +70,10 @@ button.discussion-sidebar-toggle {
 /* Dashboard */
 /* Note that this won't be needed if we actually flipped the DOM order around. */
 
-#dashboard { position: relative !important; }
-
 .news {
   float: none !important;
   width: auto !important;
   margin-right: 360px !important;
-}
-
-.dashboard-sidebar {
-  position: absolute !important;
-  top: 0 !important;
-  right: 0 !important;
 }
 
 /* Settings */
