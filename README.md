@@ -8,6 +8,10 @@ Userstyle for making all of GitHub completely fluid.
 
 Well, we just shipped split diffs—hell yeah!—and now only part of the site is fluid. This makes it all fluid with just a bunch of CSS.
 
+### Disclaimer
+
+I work at GitHub. This repo comes with absolutely no promise of an official full-width interface GitHub. No such project is under way, and as you'll find with this userstyle, it's not as simple as just adding more CSS. That said, enjoy!
+
 ### How to use
 
 Install a userstyle manager for your favorite browser:
