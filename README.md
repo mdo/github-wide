@@ -1,3 +1,5 @@
+![](https://cloud.githubusercontent.com/assets/98681/4158694/54b81c44-3491-11e4-866a-2555e8afc23d.png)
+
 # Wide GitHub
 
 Userstyle for making all of GitHub completely fluid.
@@ -15,6 +17,10 @@ Install a userstyle manager for your favorite browser:
 * Safari: http://code.grid.in.th/
 
 Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
+
+### Bug reports
+
+Open an issue or submit a pull request, please.
 
 ### <3
 
