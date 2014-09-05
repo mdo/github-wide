@@ -8,11 +8,13 @@ Well, we just shipped split diffs—hell yeah!—and now only part of the site i
 
 ### How to use
 
+Install a userstyle manager for your favorite browser:
+
 * Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
 * Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("twitter.com")` block)
 * Safari: http://code.grid.in.th/
 
-Copy-pasta the styles from `github-wide.css` into a new userstyle in your favorite browser. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
+Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
 
 ### <3
 
