@@ -93,3 +93,13 @@ button.discussion-sidebar-toggle {
 #repo-settings .menu-container {
   width: 240px !important;
 }
+
+/* Profile Page */
+.vcard-avatar.tooltipped-s:after,
+.vcard-avatar.tooltipped-s:before,
+.vcard-avatar.tooltipped-se:after,
+.vcard-avatar.tooltipped-se:before,
+.vcard-avatar.tooltipped-sw:after,
+.vcard-avatar.tooltipped-sw:before {
+  right:75%;
+}
