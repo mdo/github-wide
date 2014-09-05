@@ -83,15 +83,11 @@ button.discussion-sidebar-toggle {
 .repo-settings-content {
   float: none !important;
   width: auto !important;
+  overflow: auto !important; /* required to clear the floats that the float avoided */
 }
-
 .container > .settings-content,
 .repo-settings-content {
   margin-left: 260px !important;
-}
-
-.repo-settings-content .settings-content {
-  margin-left: 0 !important;
 }
 
 #repo-settings .menu-container {
