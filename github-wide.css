@@ -93,3 +93,10 @@ button.discussion-sidebar-toggle {
 #repo-settings .menu-container {
   width: 240px !important;
 }
+
+/* Profile page */
+
+/* Profile avatar tooltip */
+.vcard-avatar {
+  width: 230px !important;
+}
