@@ -1,0 +1,26 @@
+footer > .container, /* Footer */
+.header > .container, /* Site header */
+.pagehead > .container, /* All pageheads */
+.site-container > .container, /* List view */
+.site-container + .container /* Gist view */ {
+  width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.gist {
+  padding-right: 0 !important;
+}
+
+.gist-sidebar {
+  margin-left: -170px;
+}
+
+.gist-with-sidebar .gist-content {
+  width: 100% !important;
+  padding-right: 200px;
+}
+
+.edit.container {
+  width: 100% !important;
+}
