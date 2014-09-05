@@ -2,9 +2,7 @@ body > .container, /* Footer */
 .site > .container, /* Misc views */
 .header > .container, /* Site header */
 .pagehead > .container, /* All pageheads */
-#site-container > .container, /* Misc views */
-.site-container > .container, /* Gist */
-.site-container + .container /* Gist */ {
+#site-container > .container /* Misc views */ {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
@@ -101,23 +99,4 @@ button.discussion-sidebar-toggle {
 /* Profile avatar tooltip */
 .vcard-avatar {
   width: 230px !important;
-}
-
-/* Gist */
-
-.gist {
-  padding-right: 0 !important;
-}
-
-.gist-sidebar {
-  margin-left: -170px;
-}
-
-.gist-with-sidebar .gist-content {
-  width: 100% !important;
-  padding-right: 200px;
-}
-
-.edit.container {
-  width: 100% !important;
 }

@@ -22,6 +22,8 @@ Install a userstyle manager for your favorite browser:
 
 Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
 
+In addition, you can apply styles from `gist-wide.css` to sites beginning with `https://gist.github.com/*`.
+
 ### Bug reports
 
 Open an issue or submit a pull request, please.
