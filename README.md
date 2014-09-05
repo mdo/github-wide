@@ -17,7 +17,7 @@ I work at GitHub. This repo comes with absolutely no promise of an official full
 Install a userstyle manager for your favorite browser:
 
 * Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
-* Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("twitter.com")` block)
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("github.com")` block)
 * Safari: http://code.grid.in.th/
 
 Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
