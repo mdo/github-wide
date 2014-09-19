@@ -22,6 +22,20 @@ body > .container, /* Footer */
   margin-right: -60px !important;
 }
 
+.summary-stats,
+.authors-and-code {
+  display: table;
+  width: 100%;
+}
+
+.summary-stats li {
+  width: 25%;
+}
+
+.authors-and-code .section {
+  width: 50%;
+}
+
 /* Repo Next Code page */
 
 .with-full-navigation {
