@@ -53,7 +53,6 @@ body > .container, /* Footer */
 }
 
 .discussion-timeline {
-  overflow: auto !important;
   float: none !important;
   width: auto !important;
   margin-right: 240px !important;
