@@ -13,6 +13,7 @@ footer > .container, /* Footer */
 }
 
 .gist-sidebar {
+  position: relative;
   margin-left: -170px;
 }
 
