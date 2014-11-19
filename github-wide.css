@@ -2,6 +2,7 @@ body > .container, /* Footer */
 .site > .container, /* Misc views */
 .header > .container, /* Site header */
 .pagehead > .container, /* All pageheads */
+.codesearch-head + .container, /* Search */
 #site-container > .container, /* Misc views */
 #issues-container > .container /* Issues dashboard */ {
   width: 100% !important;
