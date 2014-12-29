@@ -24,6 +24,13 @@ Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure
 
 In addition, you can apply styles from `gist-wide.css` to sites beginning with `https://gist.github.com/*`.
 
+#### Userstyles.org
+
+If you use the Stylish addon on Chrome or Firefox you can find one-click installs including automatic updates via the packages below.
+
+* [GitHub Wide](https://userstyles.org/styles/108591/github-wide)
+* [GitHub Gist Wide](https://userstyles.org/styles/108592/github-gist-wide)
+
 ### Bug reports
 
 Open an issue or submit a pull request, please.
