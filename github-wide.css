@@ -120,3 +120,8 @@ button.discussion-sidebar-toggle {
 .vcard-avatar {
   width: 230px !important;
 }
+
+/* Commits: extended message under "..." */
+.commit-desc pre {
+  max-width: none;
+}
