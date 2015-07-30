@@ -60,6 +60,11 @@ body > .container, /* Footer */
   margin-right: 240px !important;
 }
 
+/* Fix #18 - props: @auscompgeek */
+.file-header::after {
+  clear: left !important;
+}
+
 /* New issues and Dashboard */
 
 #dashboard,
