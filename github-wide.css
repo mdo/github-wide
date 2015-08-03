@@ -4,9 +4,7 @@ body > .container, /* Footer */
 .pagehead > .container, /* All pageheads */
 #site-container > .container, /* Misc views */
 #issues-container > .container /* Issues dashboard */ {
-  width: 100% !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  width: 90% !important;
 }
 
 /* Repo Next layout */
@@ -113,9 +111,7 @@ button.discussion-sidebar-toggle {
 }
 
 #js-flash-container .flash-messages {
-  width: 100% !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  width: 90% !important;
 }
 
 /* Profile page */
