@@ -129,3 +129,17 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
+
+/* Edit PR and issues: keep the edit form's height intact */
+.view-pull-request #discussion_bucket.is-visible, #show_issue #discussion_bucket {
+    display: flex;
+}
+.view-pull-request .discussion-timeline, #show_issue .discussion-timeline {
+    flex: auto;
+    order: 1;
+    margin-right: 20px!important
+}
+.view-pull-request .discussion-sidebar, #show_issue .discussion-sidebar {
+    float: none;
+    order: 2;
+}
