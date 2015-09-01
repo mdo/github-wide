@@ -1,9 +1,4 @@
-body > .container, /* Footer */
-.site > .container, /* Misc views */
-.header > .container, /* Site header */
-.pagehead > .container, /* All pageheads */
-#site-container > .container, /* Misc views */
-#issues-container > .container /* Issues dashboard */ {
+.container {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
