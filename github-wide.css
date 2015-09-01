@@ -51,6 +51,7 @@
 .discussion-timeline {
   float: none !important;
   width: auto !important;
+  max-width: calc(100% - 240px) !important;
   margin-right: 240px !important;
 }
 
