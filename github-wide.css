@@ -49,9 +49,7 @@
 }
 
 .discussion-timeline {
-  float: none !important;
-  width: auto !important;
-  margin-right: 240px !important;
+  width: calc(100% - 240px) !important;
 }
 
 /* Fix #18 - props: @auscompgeek */
@@ -124,3 +122,4 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
+
