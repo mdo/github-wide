@@ -123,3 +123,7 @@ button.discussion-sidebar-toggle {
   max-width: none;
 }
 
+/* New PR form */
+body.split-diff .new-pr-form {
+    max-width: none;
+}
