@@ -32,6 +32,11 @@
   width: 50%;
 }
 
+table.files td.content, table.files td.message {
+  max-width: auto;
+  width: auto;
+}
+
 /* Repo Next Code page */
 
 .with-full-navigation {
