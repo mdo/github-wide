@@ -123,3 +123,6 @@ button.discussion-sidebar-toggle {
   max-width: none;
 }
 
+.comment-holder {
+  max-width: none;
+}
