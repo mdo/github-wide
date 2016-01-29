@@ -123,10 +123,9 @@ button.discussion-sidebar-toggle {
   max-width: none;
 }
 
-.comment-holder {
+.comment-holder, 
+.inline-comment-form-container.js-inline-comment-form-container.open, 
+.inline-comments .inline-comment-form-container,  
+.inline-comments .inline-comment-form {
   max-width: none;
-}
-
-.inline-comment-form-container.js-inline-comment-form-container.open, .inline-comments .inline-comment-form-container {
-    max-width: none;
 }
