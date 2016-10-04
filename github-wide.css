@@ -1,7 +1,19 @@
-.container {
+.container,
+.container-responsive {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
+}
+
+.container-responsive {
+  max-width: none !important;
+}
+
+/* Blog */
+
+.blog-home {
+  margin-left: 0;
+  margin-right: 6px;
 }
 
 /* Repo Next layout */
@@ -87,6 +99,32 @@ button.discussion-sidebar-toggle {
   margin-right: 360px !important;
 }
 
+/* Dashboard */
+/* Flexbox solution for issue #36 */
+/* For the lazy: https://github.com/mdo/github-wide/issues/36 */
+#dashboard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news {
+  margin-right: 0 !important;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 66.666667%;
+      -ms-flex: 0 66.666667%;
+          flex: 0 66.666667%;
+}
+
+.dashboard-sidebar {
+  position: relative !important;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 33.33333%;
+      -ms-flex: 0 33.33333%;
+          flex: 0 33.33333%;
+}
+
 /* Settings */
 /* This should be refactored to use our grid.scss styles anyway, thus negating these styles. */
 
@@ -123,3 +161,17 @@ button.discussion-sidebar-toggle {
   max-width: none;
 }
 
+/* Octotree Compatibility */
+
+.octotree .octotree_toggle {
+  padding: 1px !important;
+  height: 20px;
+  width: 20px;
+
+  right: -24px !important;
+  top: 14px !important;
+}
+
+.octotree-show .header {
+  padding-left: 0;
+}
