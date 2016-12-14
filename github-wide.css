@@ -57,6 +57,12 @@
   clear: left !important;
 }
 
+/* Comments */
+
+.comment-holder {
+  max-width: none !important;
+}
+
 /* New issues and Dashboard */
 
 #dashboard,
