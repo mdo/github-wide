@@ -20,7 +20,7 @@ Install a userstyle manager for your favorite browser:
 * Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("github.com")` block)
 * Safari: http://code.grid.in.th/
 
-Then, copy-pasta the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
+Then, copy-paste the styles from `github-wide.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
 
 In addition, you can apply styles from `gist-wide.css` to sites beginning with `https://gist.github.com/*`.
 
