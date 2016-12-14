@@ -4,6 +4,13 @@
   padding-right: 30px !important;
 }
 
+/* Profile */
+
+.profilecols img.avatar {
+  height: 100% !important;
+  width: 100% !important;
+}
+
 /* Repo Next layout */
 
 .repository-content {
