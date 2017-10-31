@@ -114,7 +114,7 @@ button.discussion-sidebar-toggle {
 /* Profile page */
 
 /* Profile avatar tooltip */
-.vcard-avatar {
+.u-photo .avatar {
   width: 230px !important;
 }
 
@@ -122,4 +122,3 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
-
