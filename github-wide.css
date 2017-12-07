@@ -116,6 +116,10 @@ button.discussion-sidebar-toggle {
 }
 
 /* Profile page */
+.h-card .avatar {
+  width: 100% !important;
+  height: 100% !important;
+}
 
 /* Profile avatar tooltip */
 .vcard-avatar {
