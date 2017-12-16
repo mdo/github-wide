@@ -122,3 +122,9 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
+
+/* Insights Network Graph */
+#network
+{
+  max-width: 730px;
+}
