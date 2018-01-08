@@ -122,3 +122,8 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
+
+/* The GitHub Blog pages */
+.blog-content {
+  width: calc(100% - 220px);
+}
