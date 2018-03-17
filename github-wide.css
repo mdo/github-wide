@@ -118,6 +118,11 @@ button.discussion-sidebar-toggle {
   width: 230px !important;
 }
 
+/* Profile pic height */
+.page-profile .avatar.width-full {
+  height: auto !important;
+}
+
 /* Commits: extended message under "..." */
 .commit-desc pre {
   max-width: none;
