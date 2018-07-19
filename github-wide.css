@@ -1,4 +1,8 @@
-.container {
+.container-lg {
+  max-width: none !important;
+}
+
+.container, .container-lg {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
@@ -112,6 +116,10 @@ button.discussion-sidebar-toggle {
 }
 
 /* Profile page */
+.h-card .avatar {
+  width: 100% !important;
+  height: 100% !important;
+}
 
 /* Profile avatar tooltip */
 .u-photo .avatar {
