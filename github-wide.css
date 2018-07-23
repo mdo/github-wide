@@ -67,6 +67,11 @@
   clear: left !important;
 }
 
+/* Network graph */
+#network {
+  max-width: 730px;
+}
+
 
 /*
  * Issues & Dashboard
