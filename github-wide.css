@@ -52,10 +52,10 @@
 
 /* Issues/PRs */
 .discussion-sidebar {
-  width: 220px !important;
+  width: 280px !important;
 }
 .discussion-timeline {
-  width: calc(100% - 240px) !important;
+  width: calc(100% - 300px) !important;
 }
 /* Undo for profile timeline */
 .contribution-activity-listing .discussion-timeline {
