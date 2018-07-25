@@ -1,8 +1,10 @@
 footer > .container, /* Footer */
 .header > .container, /* Site header */
 .pagehead > .container, /* All pageheads */
-.site-container > .container, /* List view */
-.site-container + .container /* Gist view */ {
+.repohead-details-container, /* "Your gists" */
+.pagehead > .container > .container, /* Tabs at top */
+.gist-content-wrapper > .container, /* List view */
+.gist-content-wrapper + .container /* Gist view */ {
   width: 100% !important;
   padding-left: 30px !important;
   padding-right: 30px !important;
@@ -10,11 +12,6 @@ footer > .container, /* Footer */
 
 .gist {
   padding-right: 0 !important;
-}
-
-.gist-sidebar {
-  position: relative;
-  margin-left: -170px;
 }
 
 .gist-with-sidebar .gist-content {
