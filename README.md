@@ -17,7 +17,7 @@ I work at GitHub. This repo comes with absolutely no promise of an official full
 Install a userstyle manager for your favorite browser:
 
 #### Stylus
-Website: [Stylish](http://add0n.com/stylus.html)
+Website: [stylus](http://add0n.com/stylus.html)
 * Chrome: https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne
 * Firefox: https://addons.mozilla.org/firefox/addon/styl-us/
 * Opera: https://addons.opera.com/extensions/details/stylus/
