@@ -4,6 +4,10 @@
   padding-right: 30px !important;
 }
 
+.container-lg {
+	max-width: inherit !important;
+}
+
 /* Repo Next layout */
 
 .repository-content {
