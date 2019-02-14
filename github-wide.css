@@ -27,7 +27,8 @@
   width: calc(33.3% - 10px) !important;
 }
 
-.u-photo {
+.u-photo,
+.user-status-container {
   max-width: 250px;
 }
 .u-photo .avatar {
