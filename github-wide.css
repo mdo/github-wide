@@ -82,7 +82,6 @@
   position: relative !important;
 }
 
-.dashboard-sidebar,
 .new-issue-form .discussion-sidebar {
   position: absolute !important;
   top: 0 !important;
@@ -95,14 +94,6 @@ button.discussion-sidebar-toggle {
 
 .timeline-new-comment {
   max-width: none !important;
-}
-
-/* Dashboard */
-/* Note that this won't be needed if we actually flipped the DOM order around. */
-
-.news {
-  float: none !important;
-  margin-right: 360px !important;
 }
 
 /* Commits: extended message under "..." */
