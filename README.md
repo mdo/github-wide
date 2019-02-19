@@ -1,4 +1,5 @@
-![](https://cloud.githubusercontent.com/assets/98681/4158694/54b81c44-3491-11e4-866a-2555e8afc23d.png)
+![github-wide](https://user-images.githubusercontent.com/98681/53048332-597afc80-3449-11e9-899d-e1897031e70e.png)
+
 
 # Wide GitHub
 
