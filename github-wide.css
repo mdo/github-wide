@@ -36,6 +36,9 @@
   height: auto !important;
 }
 
+.h-card.col-3 {
+    width: 229px;
+}
 
 /*
  * Repo-specific stuff
