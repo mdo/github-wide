@@ -36,8 +36,14 @@
   height: auto !important;
 }
 
+/*
+ * Profile pages > vCard sidebar
+ */
 .h-card.col-3 {
     width: 229px;
+}
+.vcard-detail span.p-label {
+  white-space: normal;
 }
 
 /*
