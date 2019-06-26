@@ -8,9 +8,16 @@
   padding-left: 30px !important;
 }
 
-/* New responsive containers on some pages */
-.container-lg {
+/* Responsive containers on some pages */
+.container-lg,
+.container-xl {
   max-width: 100% !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+/* Match the header to container padding */
+.Header {
   padding-right: 30px !important;
   padding-left: 30px !important;
 }
