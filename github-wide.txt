@@ -15,14 +15,14 @@ github.com##.Header:style(padding-right: 30px !important; padding-left: 30px !im
 ! Profile pages
 github.com##.pinned-repo-item:style(width: calc(50% - 10px) !important)
 github.com##.org-pinned-repos-list .pinned-repo-item:style(width: calc(33.3% - 10px) !important)
-github.com##.u-photo,
+github.com##.u-photo:style(max-width: 250px)
 github.com##.user-status-container:style(max-width: 250px)
 github.com##.u-photo .avatar:style(width: 100% !important; height: auto !important)
 
 ! Repo-specific stuff
 github.com##.repository-content:style(width: 100% !important)
 
-! Undo container changes for the Projects tab on repos which have unnecessary nested container-lg's */
+! Undo container changes for the Projects tab on repos which have unnecessary nested container-lg's
 github.com##.repository-content > .container-lg:style(padding-right: 0 !important; padding-left: 0 !important)
 
 ! Issues/PRs
