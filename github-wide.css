@@ -58,13 +58,6 @@
   padding-left: 0 !important;
 }
 
-/* Issues/PRs */
-.discussion-sidebar {
-  width: 280px !important;
-}
-.discussion-timeline {
-  width: calc(100% - 300px) !important;
-}
 /* Undo for profile timeline */
 .contribution-activity-listing .discussion-timeline {
   width: 100% !important;
