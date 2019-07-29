@@ -1,0 +1,50 @@
+! Title: GitHub Wide — uBlock Origin version
+! Version: 11July2019v1
+! Updates: 30 days
+
+! Basic layout
+github.com##.container:style(width: 100% !important; padding-right: 30px !important; padding-left: 30px !important)
+
+! Responsive containers on some pages
+github.com##.container-lg:style(max-width: 100% !important; padding-right: 30px !important; padding-left: 30px !important)
+github.com##.container-xl:style(max-width: 100% !important; padding-right: 30px !important; padding-left: 30px !important)
+
+! Match the header to container padding
+github.com##.Header:style(padding-right: 30px !important; padding-left: 30px !important)
+
+! Profile pages
+github.com##.pinned-repo-item:style(width: calc(50% - 10px) !important)
+github.com##.org-pinned-repos-list .pinned-repo-item:style(width: calc(33.3% - 10px) !important)
+github.com##.u-photo:style(max-width: 250px)
+github.com##.user-status-container:style(max-width: 250px)
+github.com##.u-photo .avatar:style(width: 100% !important; height: auto !important)
+
+! Repo-specific stuff
+github.com##.repository-content:style(width: 100% !important)
+
+! Undo container changes for the Projects tab on repos which have unnecessary nested container-lg's
+github.com##.repository-content > .container-lg:style(padding-right: 0 !important; padding-left: 0 !important)
+
+! Issues/PRs
+github.com##.discussion-sidebar:style(width: 280px !important)
+github.com##.discussion-timeline:style(width: calc(100% - 300px) !important)
+! Undo for profile timeline 
+github.com##.contribution-activity-listing .discussion-timeline:style(width: 100% !important)
+
+! Fix #18 - props: @auscompgeek
+github.com##.file-header:after:style(clear: left !important)
+
+! Network graph
+github.com###network:style(max-width: 730px)
+
+! Issues & Dashboard
+github.com###dashboard:style(position: relative !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com##.new-issue-form .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.timeline-new-comment:style(max-width: none !important)
+! Commits: extended message under "..."
+github.com##.commit-desc pre:style(max-width: none)
+
+! Alert messages
+github.com###js-flash-container .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
