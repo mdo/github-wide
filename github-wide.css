@@ -16,6 +16,11 @@
   padding-left: 30px !important;
 }
 
+/* Don't mess with drop down menus */
+.dropdown-menu {
+  max-width: none !important;
+}
+
 /* Match the header to container padding */
 .Header {
   padding-right: 30px !important;
