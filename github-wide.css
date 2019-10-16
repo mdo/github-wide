@@ -102,6 +102,15 @@ button.discussion-sidebar-toggle {
   max-width: none;
 }
 
+/* issue discussion */
+.discussion-sidebar {
+  width: 15%;
+}
+
+.discussion-timeline {
+  width: 83%;
+}
+
 /* Alert messages */
 #js-flash-container .flash-messages {
   width: 100% !important;
