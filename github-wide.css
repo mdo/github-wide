@@ -113,3 +113,11 @@ button.discussion-sidebar-toggle {
 .css-truncate .css-truncate-target {
   max-width: 90%
 }
+
+.notifications .list-group-item-name {
+  max-width: 75%;
+}
+
+.notifications .list-group-item-name a {
+  max-width: 100%;
+}
