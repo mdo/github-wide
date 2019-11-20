@@ -108,3 +108,16 @@ button.discussion-sidebar-toggle {
   padding-left: 30px !important;
   padding-right: 30px !important;
 }
+
+/* Notifications */
+.css-truncate .css-truncate-target {
+  max-width: 90%
+}
+
+.notifications .list-group-item-name {
+  max-width: 75%;
+}
+
+.notifications .list-group-item-name a {
+  max-width: 100%;
+}
