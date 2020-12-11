@@ -36,6 +36,7 @@
 
 .u-photo,
 .user-status-container {
+  margin: auto;
   max-width: 250px;
 }
 .u-photo .avatar {
